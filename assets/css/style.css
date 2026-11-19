@@ -1,6 +1,6 @@
 
 /* =========================================
-   TMR — DESIGN SYSTEM
+   TEMR — DESIGN SYSTEM
    ========================================= */
 
 :root {
@@ -44,6 +44,14 @@ body {
 
 body.security-theme {
     background: var(--dark);
+    color: #F4F6F8;
+}
+
+body.home-page {
+    background:
+        linear-gradient(rgba(5, 15, 24, .72), rgba(5, 15, 24, .78)),
+        url("../img/homeBg-temr.png") center / cover fixed;
+    background-color: var(--dark);
     color: #F4F6F8;
 }
 
@@ -185,6 +193,25 @@ img {
     margin: auto;
 }
 
+body.home-page .site-header {
+    background: rgba(5, 15, 24, .82);
+    border-color: rgba(255, 255, 255, .18);
+}
+
+body.home-page .brand {
+    padding: 0;
+    background: transparent;
+}
+
+body.home-page .header-caption,
+body.home-page .hero-topline {
+    color: rgba(255, 255, 255, .82);
+}
+
+body.home-page .language-switch {
+    color: #fff;
+}
+
 .hero-topline {
     display: flex;
     justify-content: space-between;
@@ -201,14 +228,17 @@ img {
     font-weight: 800;
     line-height: .91;
     letter-spacing: -.085em;
+    color: #fff;
+    text-shadow: 0 2px 24px rgba(0, 0, 0, .28);
 }
 
 .home-heading p {
     margin-top: 28px;
     font-size: clamp(16px, 2vw, 22px);
-    color: var(--muted);
+    color: rgba(255, 255, 255, .9);
     max-width: 430px;
     line-height: 1.6;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, .35);
 }
 
 /* =========================================
@@ -320,7 +350,12 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 50px;
-    border-bottom: 1px solid rgba(20,40,50,.15);
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    color: #fff;
+}
+
+.home-statement .eyebrow {
+    color: rgba(255, 255, 255, .78);
 }
 
 .home-statement p {
@@ -329,6 +364,7 @@ img {
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: -.04em;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, .3);
 }
 
 /* =========================================
@@ -437,7 +473,7 @@ img {
 }
 
 .content-text {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.9;
     color: var(--muted);
 }
@@ -456,7 +492,7 @@ img {
 
 .image-block {
     position: relative;
-    min-height: 430px;
+    height: min(430px, 50vh);
     overflow: hidden;
     background: var(--concrete);
 }
@@ -464,7 +500,6 @@ img {
 .image-block img {
     width: 100%;
     height: 100%;
-    min-height: 430px;
     object-fit: cover;
     transition: transform 800ms ease;
 }
@@ -523,7 +558,7 @@ img {
 
 .feature-card p {
     margin-top: 12px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.7;
     color: var(--muted);
 }
@@ -575,6 +610,12 @@ img {
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.form-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .form-group {
@@ -646,6 +687,40 @@ img {
     font-size: 10px;
     color: var(--muted);
     gap: 20px;
+}
+
+.footer-logo {
+    width: 82px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.footer-company-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 4px 16px;
+    max-width: 760px;
+    line-height: 1.6;
+}
+
+.footer-detail-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-company-details a {
+    color: inherit;
+}
+
+body.home-page .site-footer {
+    border-color: rgba(255, 255, 255, .2);
+    color: rgba(255, 255, 255, .82);
+}
+
+body.home-page .footer-logo,
+.security-theme .footer-logo {
+    filter: brightness(0) invert(1);
 }
 
 .security-theme .site-footer {

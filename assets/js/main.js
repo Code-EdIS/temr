@@ -1,11 +1,11 @@
 
 /* =========================================
-   TMR — INTERACTION LAYER
+   TEMR — INTERACTION LAYER
    ========================================= */
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const content = window.TMR_CONTENT;
+    const content = window.TEMR_CONTENT;
 
     const app = document.querySelector("#app");
 
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const isHome = document.body.classList.contains("home-page");
 
-    let language = localStorage.getItem("tmr-language") || "it";
+    let language = localStorage.getItem("temr-language") || "it";
 
     /* =====================================
        LANGUAGE
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         language = lang;
 
-        localStorage.setItem("tmr-language", lang);
+        localStorage.setItem("temr-language", lang);
 
         document.documentElement.lang = lang;
 
@@ -177,22 +177,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     <div class="contact-item">
                         <span>EMAIL</span>
-                        <p>[EMAIL AZIENDALE]</p>
+                        <p>
+                            <a href="mailto:info@temr-srl.it">info@temr-srl.it</a><br>
+                            <a href="mailto:commerciale@temr-srl.it">commerciale@temr-srl.it</a>
+                        </p>
                     </div>
 
                     <div class="contact-item">
                         <span>PHONE</span>
-                        <p>[NUMERO AZIENDALE]</p>
+                        <p><a href="tel:3348630415">3348630415</a></p>
                     </div>
 
                     <div class="contact-item">
                         <span>LOCATION</span>
-                        <p>[SEDE AZIENDALE]</p>
+                        <p>ROMA (RM) VIA DEI CASTANI 170 CAP 000171</p>
                     </div>
 
                 </div>
 
-                <div class="contact-form">
+                <form class="contact-form" id="contact-form">
 
                     <div class="form-group">
                         <label for="name">
@@ -220,13 +223,18 @@ document.addEventListener("DOMContentLoaded", () => {
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
 
-                    <button type="button" class="form-submit" id="contact-submit">
-                        ${language === "it" ? "PREPARA EMAIL →" : "PREPARE EMAIL →"}
-                    </button>
+                    <div class="form-actions">
+                        <button type="button" class="form-submit" data-recipient="info@temr-srl.it">
+                            ${language === "it" ? "INVIA A INFO →" : "SEND TO INFO →"}
+                        </button>
+
+                        <button type="button" class="form-submit" data-recipient="commerciale@temr-srl.it">
+                            ${language === "it" ? "INVIA A COMMERCIALE →" : "SEND TO SALES →"}
+                        </button>
+                    </div>
 
                     <p class="form-note" id="form-note" aria-live="polite"></p>
-
-                </div>
+                </form>
 
             </div>
         ` : "";
@@ -272,8 +280,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 <a href="${base}index.html" class="brand">
                     <img
-                        src="${base}assets/img/logo-tmr.png"
-                        alt="TMR S.r.l."
+                        src="${base}assets/img/logo-temr.png"
+                        alt="TEMR S.r.l."
                     >
                 </a>
 
@@ -375,16 +383,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <footer class="site-footer">
 
-                <span>
-                    © ${new Date().getFullYear()} TMR S.r.l.
-                </span>
+                <img
+                    class="footer-logo"
+                    src="${base}assets/img/logo-temr.png"
+                    alt="TEMR S.r.l."
+                >
+
+                <div class="footer-company-details">
+                    <div class="footer-detail-stack">
+                        <a href="mailto:info@temr-srl.it">info@temr-srl.it</a>
+                        <a href="mailto:commerciale@temr-srl.it">commerciale@temr-srl.it</a>
+                    </div>
+                    <a href="tel:3348630415">3348630415</a>
+                    <div class="footer-detail-stack">
+                        <span>ROMA (RM) VIA DEI CASTANI 170 CAP 000171</span>
+                        <span>P.IVA: 13517171008</span>
+                    </div>
+                </div>
 
                 <span>
                     ${content[language].footer.rights}
                 </span>
 
                 <a href="${base}index.html">
-                    TMR — GROUP ↗
+                    TEMR — GROUP ↗
                 </a>
 
             </footer>
@@ -466,63 +488,38 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function setupContactForm() {
 
-        const button = document.querySelector("#contact-submit");
+        const form = document.querySelector("#contact-form");
 
-        if (!button) return;
+        if (!form) return;
 
-        button.addEventListener("click", () => {
+        const buttons = form.querySelectorAll("[data-recipient]");
+        const name = form.querySelector("#name");
+        const email = form.querySelector("#email");
+        const subject = form.querySelector("#subject");
+        const message = form.querySelector("#message");
+        const note = form.querySelector("#form-note");
 
-            const name = document.querySelector("#name");
-            const email = document.querySelector("#email");
-            const subject = document.querySelector("#subject");
-            const message = document.querySelector("#message");
-            const note = document.querySelector("#form-note");
+        buttons.forEach(button => {
+            button.addEventListener("click", () => {
+                if (!form.reportValidity()) return;
 
-            if (
-                !name.value.trim() ||
-                !email.validity.valid ||
-                !subject.value.trim() ||
-                !message.value.trim()
-            ) {
+                const recipient = button.dataset.recipient;
+                const mailSubject = encodeURIComponent(subject.value);
+                const mailBody = encodeURIComponent(
+                    `Nome: ${name.value}\n` +
+                    `Email: ${email.value}\n\n` +
+                    `${message.value}`
+                );
 
+                window.location.href =
+                    `mailto:${recipient}?subject=${mailSubject}&body=${mailBody}`;
+
+                form.reset();
                 note.textContent = language === "it"
-                    ? "Compila correttamente tutti i campi."
-                    : "Please complete all fields correctly.";
-
-                return;
-
-            }
-
-            /*
-             * Inserire qui l'indirizzo aziendale verificato.
-             * Non viene inventato un destinatario.
-             */
-
-            const recipient = "INSERIRE_EMAIL_AZIENDALE";
-
-            if (recipient === "INSERIRE_EMAIL_AZIENDALE") {
-
-                note.textContent = language === "it"
-                    ? "Il modulo è pronto, ma manca la configurazione dell'indirizzo aziendale."
-                    : "The form is ready, but the company email address has not been configured.";
-
-                return;
-
-            }
-
-            const mailSubject = encodeURIComponent(subject.value);
-
-            const mailBody = encodeURIComponent(
-                `Nome: ${name.value}\n` +
-                `Email: ${email.value}\n\n` +
-                `${message.value}`
-            );
-
-            window.location.href =
-                `mailto:${recipient}?subject=${mailSubject}&body=${mailBody}`;
-
+                    ? "Messaggio preparato e modulo azzerato."
+                    : "Message prepared and form cleared.";
+            });
         });
-
     }
 
     /* =====================================

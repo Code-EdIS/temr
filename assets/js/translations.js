@@ -1,9 +1,9 @@
 
 /* =========================================
-   TMR — CONTENT & TRANSLATIONS
+   TEMR — CONTENT & TRANSLATIONS
    ========================================= */
 
-window.TMR_CONTENT = {
+window.TEMR_CONTENT = {
 
     it: {
 
@@ -21,7 +21,7 @@ window.TMR_CONTENT = {
         },
 
         home: {
-            eyebrow: "TMR — ENGINEERING GROUP",
+            eyebrow: "TEMR — ENGINEERING GROUP",
             title: "TWO WORLDS.<br>ONE STANDARD.",
             description: "Ingegnerizziamo il mondo fisico. Proteggiamo quello digitale.",
             infrastructure: "Building<br>Connections.",
@@ -29,7 +29,7 @@ window.TMR_CONTENT = {
             security: "Protecting<br>What Matters.",
             securityDescription: "Cybersecurity e tecnologie crittografiche.",
             explore: "ESPLORA LA DIVISIONE →",
-            statementLabel: "IL METODO TMR",
+            statementLabel: "IL METODO TEMR",
             statement: "Discipline differenti. Una visione condivisa. Soluzioni affidabili per un mondo in continua evoluzione."
         },
 
@@ -47,7 +47,7 @@ window.TMR_CONTENT = {
                     sectionTitle: "Infrastructure is more than construction.",
                     sectionText: [
                         "Dalle opere civili agli interventi infrastrutturali, ogni progetto richiede competenza tecnica, organizzazione e attenzione al contesto.",
-                        "TMR opera nel settore delle infrastrutture con un approccio orientato alla qualità esecutiva, alla sicurezza e all'affidabilità delle soluzioni."
+                        "TEMR opera nel settore delle infrastrutture con un approccio orientato alla qualità esecutiva, alla sicurezza e all'affidabilità delle soluzioni."
                     ],
                     features: [
                         {
@@ -72,7 +72,7 @@ window.TMR_CONTENT = {
                     label: "WHO WE ARE",
                     sectionTitle: "A practical approach to complex projects.",
                     sectionText: [
-                        "TMR sviluppa la propria attività nel settore delle opere infrastrutturali, con attenzione alla pianificazione e alla corretta esecuzione degli interventi.",
+                        "TEMR sviluppa la propria attività nel settore delle opere infrastrutturali, con attenzione alla pianificazione e alla corretta esecuzione degli interventi.",
                         "Ogni progetto viene affrontato considerando le esigenze del territorio, le specifiche tecniche e gli standard di sicurezza applicabili."
                     ],
                     features: [
@@ -94,29 +94,29 @@ window.TMR_CONTENT = {
                 products: {
                     eyebrow: "01 / INFRASTRUCTURE / SERVICES",
                     title: "What we<br>build.",
-                    description: "Soluzioni e interventi per lo sviluppo di infrastrutture e reti.",
+                    description: "Interventi per lo sviluppo e la manutenzione di infrastrutture, reti e opere civili, con attività definite in base alle caratteristiche del contesto e agli obiettivi di ciascun progetto.",
                     label: "OUR SERVICES",
                     sectionTitle: "From groundwork to connectivity.",
                     sectionText: [
-                        "Le attività di TMR comprendono interventi infrastrutturali destinati allo sviluppo e al mantenimento di reti e opere civili.",
-                        "Le attività e le relative specifiche tecniche vengono definite in funzione delle caratteristiche e dei requisiti di ogni progetto."
+                        "Le attività infrastrutturali riguardano lo sviluppo e il mantenimento di reti e opere civili. Ogni intervento prende forma considerando il contesto, le necessità dell'opera e il coordinamento delle diverse fasi.",
+                        "Le lavorazioni e le specifiche vengono definite in relazione alle caratteristiche del progetto, al sito e agli obiettivi previsti. Pianificazione e attenzione alla corretta esecuzione accompagnano le diverse attività."
                     ],
                     features: [
                         {
                             title: "Scavi e opere civili",
-                            text: "Interventi di scavo e predisposizione delle infrastrutture."
+                            text: "Attività di scavo e preparazione delle aree per la realizzazione di opere e reti. Le modalità di intervento vengono valutate in base alle condizioni del sito e alle esigenze del progetto."
                         },
                         {
                             title: "Reti in fibra ottica",
-                            text: "Opere e infrastrutture per la connettività."
+                            text: "Interventi legati alla predisposizione e allo sviluppo di reti in fibra ottica, a supporto della connettività. Le attività vengono definite considerando tracciati, contesto e necessità dell'infrastruttura."
                         },
                         {
                             title: "Infrastrutture ferroviarie",
-                            text: "Interventi infrastrutturali in ambito ferroviario."
+                            text: "Lavorazioni infrastrutturali connesse al settore ferroviario e alle opere necessarie al suo sviluppo. L'ambito e le modalità di intervento dipendono dalle caratteristiche e dai requisiti di ogni progetto."
                         },
                         {
                             title: "Opere accessorie",
-                            text: "Lavorazioni complementari connesse agli interventi principali."
+                            text: "Attività complementari che accompagnano le opere principali e contribuiscono alla loro realizzazione. Le lavorazioni vengono individuate in base alle necessità del cantiere e al coordinamento con le altre fasi."
                         }
                     ]
                 },
@@ -151,7 +151,7 @@ window.TMR_CONTENT = {
                     sectionTitle: "Security is built into every layer.",
                     sectionText: [
                         "La sicurezza digitale richiede un approccio strutturato, capace di proteggere le informazioni e garantire la riservatezza delle comunicazioni.",
-                        "TMR sviluppa la propria proposta tecnologica nell'ambito della sicurezza informatica, con particolare attenzione alle tecnologie crittografiche."
+                        "TEMR sviluppa la propria proposta tecnologica nell'ambito della sicurezza informatica, con particolare attenzione alle tecnologie crittografiche."
                     ],
                     features: [
                         {
@@ -198,29 +198,29 @@ window.TMR_CONTENT = {
                 products: {
                     eyebrow: "02 / CYBERSECURITY / SOLUTIONS",
                     title: "Protecting<br>information.",
-                    description: "Tecnologie crittografiche e soluzioni per la sicurezza delle informazioni.",
-                    label: "OUR SOLUTIONS",
-                    sectionTitle: "Cryptography at the core.",
+                    description: "Soluzioni moderne per proteggere dati, comunicazioni e sistemi digitali attraverso crittografia innovativa.",
+                    label: "LE NOSTRE SOLUZIONI",
+                    sectionTitle: "La crittografia al centro della protezione.",
                     sectionText: [
-                        "Le tecnologie crittografiche consentono di proteggere le informazioni attraverso meccanismi matematici e protocolli progettati per garantire la sicurezza dei dati.",
-                        "Le soluzioni specifiche vengono definite in base alle esigenze applicative, ai requisiti di sicurezza e al contesto operativo."
+                        "TEMR può sviluppare percorsi di protezione dei dati basati su crittografia avanzata, integrando cifratura end-to-end, separazione delle chiavi e protezione dei dati sia in archivio sia in movimento.",
+                        "Le soluzioni possono combinare algoritmi simmetrici e asimmetrici, firme digitali e tecniche quantistiche-resilienti, adattando sicurezza, prestazioni e controllo degli accessi alle esigenze specifiche."
                     ],
                     features: [
                         {
                             title: "Data encryption",
-                            text: "Crittografia dei dati per proteggerne la riservatezza."
+                            text: "Cifratura avanzata di database, file, backup e informazioni sensibili durante l'intero ciclo di vita dei dati. L'approccio può unire crittografia applicativa, controllo granulare delle chiavi e modalità ottimizzate per dati strutturati o non strutturati."
                         },
                         {
                             title: "Secure communication",
-                            text: "Protezione dei canali e dei flussi di comunicazione."
+                            text: "Canali protetti con cifratura end-to-end, scambio sicuro delle chiavi, certificati digitali e autenticazione reciproca. Tecniche come forward secrecy e gestione delle sessioni aiutano a limitare intercettazioni e compromissioni."
                         },
                         {
                             title: "Key management",
-                            text: "Gestione delle chiavi crittografiche."
+                            text: "Gestione strutturata di generazione, distribuzione, rotazione, revoca e conservazione delle chiavi. Separazione dei privilegi, audit delle operazioni e recuperi controllati possono ridurre i rischi in ambienti cloud e distribuiti."
                         },
                         {
                             title: "Cryptographic systems",
-                            text: "Tecnologie e sistemi per la sicurezza delle informazioni."
+                            text: "Sistemi personalizzati basati su firme digitali, protocolli di verifica e meccanismi innovativi per proteggere dati e identità. Le architetture possono essere progettate per evolvere verso primitive post-quantistiche."
                         }
                     ]
                 },
@@ -258,7 +258,7 @@ window.TMR_CONTENT = {
         },
 
         home: {
-            eyebrow: "TMR — ENGINEERING GROUP",
+            eyebrow: "TEMR — ENGINEERING GROUP",
             title: "TWO WORLDS.<br>ONE STANDARD.",
             description: "Engineering the physical world. Securing the digital one.",
             infrastructure: "Building<br>Connections.",
@@ -266,7 +266,7 @@ window.TMR_CONTENT = {
             security: "Protecting<br>What Matters.",
             securityDescription: "Cybersecurity and cryptographic technologies.",
             explore: "EXPLORE DIVISION →",
-            statementLabel: "THE TMR APPROACH",
+            statementLabel: "THE TEMR APPROACH",
             statement: "Different disciplines. Shared vision. Reliable solutions for an ever-evolving world."
         },
 
@@ -284,7 +284,7 @@ window.TMR_CONTENT = {
                     sectionTitle: "Infrastructure is more than construction.",
                     sectionText: [
                         "From civil works to infrastructure projects, every assignment requires technical expertise, organisation and attention to context.",
-                        "TMR operates in the infrastructure sector with an approach focused on execution quality, safety and reliable solutions."
+                        "TEMR operates in the infrastructure sector with an approach focused on execution quality, safety and reliable solutions."
                     ],
                     features: [
                         {
@@ -309,7 +309,7 @@ window.TMR_CONTENT = {
                     label: "WHO WE ARE",
                     sectionTitle: "A practical approach to complex projects.",
                     sectionText: [
-                        "TMR operates in the infrastructure sector, focusing on project planning and the proper execution of works.",
+                        "TEMR operates in the infrastructure sector, focusing on project planning and the proper execution of works.",
                         "Every project is approached by considering local requirements, technical specifications and applicable safety standards."
                     ],
                     features: [
@@ -331,29 +331,29 @@ window.TMR_CONTENT = {
                 products: {
                     eyebrow: "01 / INFRASTRUCTURE / SERVICES",
                     title: "What we<br>build.",
-                    description: "Infrastructure works and solutions for the development of networks and civil projects.",
+                    description: "Works supporting the development and maintenance of infrastructure, networks and civil projects, defined around the context and objectives of each project.",
                     label: "OUR SERVICES",
                     sectionTitle: "From groundwork to connectivity.",
                     sectionText: [
-                        "TMR's activities include infrastructure works supporting the development and maintenance of networks and civil engineering projects.",
-                        "Activities and technical specifications are defined according to the characteristics and requirements of each project."
+                        "Infrastructure activities support the development and maintenance of networks and civil works. Each intervention takes shape around its setting, the needs of the works and coordination across the different stages.",
+                        "Work and technical specifications are defined according to the project, site conditions and intended objectives. Planning and attention to proper execution guide the activities from one stage to the next."
                     ],
                     features: [
                         {
                             title: "Excavation and civil works",
-                            text: "Excavation and infrastructure preparation."
+                            text: "Excavation and site preparation for infrastructure and networks. The approach is assessed in light of local conditions and project requirements, supporting the work needed for the planned development."
                         },
                         {
                             title: "Fibre-optic networks",
-                            text: "Works and infrastructure for connectivity."
+                            text: "Activities connected with preparing and developing fibre-optic networks to support connectivity. Work is defined with consideration for routes, local conditions and the needs of the infrastructure."
                         },
                         {
                             title: "Railway infrastructure",
-                            text: "Infrastructure works in the railway sector."
+                            text: "Infrastructure activities associated with the railway sector and works supporting its development. The scope and approach depend on the characteristics and requirements of each project."
                         },
                         {
                             title: "Ancillary works",
-                            text: "Complementary activities connected to primary works."
+                            text: "Complementary activities that accompany primary works and contribute to their delivery. Work is identified according to site needs and coordinated with the other stages of the project."
                         }
                     ]
                 },
@@ -388,7 +388,7 @@ window.TMR_CONTENT = {
                     sectionTitle: "Security is built into every layer.",
                     sectionText: [
                         "Digital security requires a structured approach to protecting information and ensuring the confidentiality of communications.",
-                        "TMR develops its technological offering in the field of cybersecurity, with a particular focus on cryptographic technologies."
+                        "TEMR develops its technological offering in the field of cybersecurity, with a particular focus on cryptographic technologies."
                     ],
                     features: [
                         {
@@ -435,29 +435,29 @@ window.TMR_CONTENT = {
                 products: {
                     eyebrow: "02 / CYBERSECURITY / SOLUTIONS",
                     title: "Protecting<br>information.",
-                    description: "Cryptographic technologies and solutions for information security.",
+                    description: "Modern solutions for protecting data, communications and digital systems through innovative cryptography.",
                     label: "OUR SOLUTIONS",
-                    sectionTitle: "Cryptography at the core.",
+                    sectionTitle: "Cryptography at the core of protection.",
                     sectionText: [
-                        "Cryptographic technologies protect information through mathematical mechanisms and protocols designed to ensure data security.",
-                        "Specific solutions are defined according to application needs, security requirements and the operational environment."
+                        "TEMR can develop data-protection strategies based on advanced cryptography, combining end-to-end encryption, key separation and protection for data both at rest and in transit.",
+                        "Solutions can combine symmetric and asymmetric algorithms, digital signatures and quantum-resistant techniques, adapting security, performance and access control to specific operational needs."
                     ],
                     features: [
                         {
                             title: "Data encryption",
-                            text: "Data encryption to protect confidentiality."
+                            text: "Advanced encryption for databases, files, backups and sensitive information throughout the entire data lifecycle. The approach can combine application-level encryption, granular key control and formats for structured or unstructured data."
                         },
                         {
                             title: "Secure communication",
-                            text: "Protection of communication channels and data flows."
+                            text: "Protected channels using end-to-end encryption, secure key exchange, digital certificates and mutual authentication. Forward secrecy and session management help limit interception, impersonation and compromise."
                         },
                         {
                             title: "Key management",
-                            text: "Cryptographic key management."
+                            text: "Structured management of key generation, distribution, rotation, revocation and secure storage. Privilege separation, operation auditing and controlled recovery can reduce risk across cloud and distributed environments."
                         },
                         {
                             title: "Cryptographic systems",
-                            text: "Technologies and systems for information security."
+                            text: "Custom systems using digital signatures, verification protocols and innovative mechanisms to protect data and identities. Architectures can be designed to evolve towards post-quantum cryptographic primitives."
                         }
                     ]
                 },
