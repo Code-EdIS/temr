@@ -24,9 +24,9 @@ window.TEMR_CONTENT = {
             eyebrow: "TEMR — ENGINEERING GROUP",
             title: "TWO WORLDS.<br>ONE STANDARD.",
             description: "Ingegnerizziamo il mondo fisico. Proteggiamo quello digitale.",
-            infrastructure: "Building<br>Connections.",
+            infrastructure: "Costruendo<br>Connesioni.",
             infrastructureDescription: "Ingegneria civile e soluzioni infrastrutturali.",
-            security: "Protecting<br>What Matters.",
+            security: "Proteggiamo<br>Quello che Importa.",
             securityDescription: "Cybersecurity e tecnologie crittografiche.",
             explore: "ESPLORA LA DIVISIONE →",
             statementLabel: "IL METODO TEMR",
@@ -41,25 +41,25 @@ window.TEMR_CONTENT = {
 
                 home: {
                     eyebrow: "01 / INFRASTRUCTURE",
-                    title: "Building<br>the future.",
+                    title: "Progettando<br>il futuro.",
                     description: "Progettiamo e realizziamo soluzioni infrastrutturali che connettono territori, persone e sistemi.",
                     label: "ENGINEERING THE PHYSICAL WORLD",
-                    sectionTitle: "Infrastructure is more than construction.",
+                    sectionTitle: "progettare più che costruire.",
                     sectionText: [
                         "Dalle opere civili agli interventi infrastrutturali, ogni progetto richiede competenza tecnica, organizzazione e attenzione al contesto.",
                         "TEMR opera nel settore delle infrastrutture con un approccio orientato alla qualità esecutiva, alla sicurezza e all'affidabilità delle soluzioni."
                     ],
                     features: [
                         {
-                            title: "Civil engineering",
+                            title: "ingegneria civile",
                             text: "Interventi e opere di ingegneria civile."
                         },
                         {
-                            title: "Network infrastructure",
+                            title: "Network di infrastrutture",
                             text: "Scavi e infrastrutture per reti di telecomunicazione e fibra ottica."
                         },
                         {
-                            title: "Railway infrastructure",
+                            title: "infrastrutture ferroviarie",
                             text: "Interventi e opere legate alle infrastrutture ferroviarie."
                         }
                     ]
@@ -67,25 +67,25 @@ window.TEMR_CONTENT = {
 
                 about: {
                     eyebrow: "01 / INFRASTRUCTURE / ABOUT",
-                    title: "Built on<br>experience.",
+                    title: "costruiti dall'<br>esperienza.",
                     description: "Il valore di un'infrastruttura nasce dall'unione tra competenza, metodo e capacità operativa.",
                     label: "WHO WE ARE",
-                    sectionTitle: "A practical approach to complex projects.",
+                    sectionTitle: "Approccio pratico a problemi complessi.",
                     sectionText: [
                         "TEMR sviluppa la propria attività nel settore delle opere infrastrutturali, con attenzione alla pianificazione e alla corretta esecuzione degli interventi.",
                         "Ogni progetto viene affrontato considerando le esigenze del territorio, le specifiche tecniche e gli standard di sicurezza applicabili."
                     ],
                     features: [
                         {
-                            title: "Competence",
+                            title: "Competenze",
                             text: "Competenze tecniche applicate alle esigenze del progetto."
                         },
                         {
-                            title: "Precision",
+                            title: "Precisione",
                             text: "Pianificazione e attenzione alle fasi operative."
                         },
                         {
-                            title: "Reliability",
+                            title: "Affidabilità",
                             text: "Un approccio orientato alla qualità e alla continuità."
                         }
                     ]
@@ -93,10 +93,10 @@ window.TEMR_CONTENT = {
 
                 products: {
                     eyebrow: "01 / INFRASTRUCTURE / SERVICES",
-                    title: "What we<br>build.",
+                    title: "Cosa<br>costruiamo.",
                     description: "Interventi per lo sviluppo e la manutenzione di infrastrutture, reti e opere civili, con attività definite in base alle caratteristiche del contesto e agli obiettivi di ciascun progetto.",
                     label: "OUR SERVICES",
-                    sectionTitle: "From groundwork to connectivity.",
+                    sectionTitle: "dagli scavi ai collegamenti.",
                     sectionText: [
                         "Le attività infrastrutturali riguardano lo sviluppo e il mantenimento di reti e opere civili. Ogni intervento prende forma considerando il contesto, le necessità dell'opera e il coordinamento delle diverse fasi.",
                         "Le lavorazioni e le specifiche vengono definite in relazione alle caratteristiche del progetto, al sito e agli obiettivi previsti. Pianificazione e attenzione alla corretta esecuzione accompagnano le diverse attività."
@@ -123,7 +123,7 @@ window.TEMR_CONTENT = {
 
                 contacts: {
                     eyebrow: "01 / INFRASTRUCTURE / CONTACT",
-                    title: "Let's build<br>something.",
+                    title: "Costruiamo<br>insieme.",
                     description: "Hai un progetto infrastrutturale o vuoi maggiori informazioni sulle nostre attività? Contattaci.",
                     label: "GET IN TOUCH",
                     sectionTitle: "Start a conversation.",
