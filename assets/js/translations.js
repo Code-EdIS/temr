@@ -41,7 +41,7 @@ window.TEMR_CONTENT = {
 
                 home: {
                     eyebrow: "01 / INFRASTRUCTURE",
-                    title: "Progettando<br>il futuro.",
+                    title: "Progettiamo<br>il futuro.",
                     description: "Progettiamo e realizziamo soluzioni infrastrutturali che connettono territori, persone e sistemi.",
                     label: "ENGINEERING THE PHYSICAL WORLD",
                     sectionTitle: "progettare più che costruire.",
@@ -227,7 +227,7 @@ window.TEMR_CONTENT = {
 
                 contacts: {
                     eyebrow: "02 / CYBERSECURITY / CONTACT",
-                    title: "Let's secure<br>the future.",
+                    title: "Chiedici come possiamo<br>proteggere i tuoi dati.",
                     description: "Parliamo delle tue esigenze di sicurezza digitale e delle possibili soluzioni.",
                     label: "GET IN TOUCH",
                     sectionTitle: "Start a conversation.",
