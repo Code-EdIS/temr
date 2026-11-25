@@ -145,25 +145,25 @@ window.TEMR_CONTENT = {
 
                 home: {
                     eyebrow: "02 / CYBERSECURITY",
-                    title: "Securing<br>the unseen.",
+                    title: "Mettendo in sicurezza<br>l'invisibile.",
                     description: "Tecnologie e soluzioni per proteggere dati, comunicazioni e infrastrutture digitali.",
                     label: "SECURING THE DIGITAL WORLD",
-                    sectionTitle: "Security is built into every layer.",
+                    sectionTitle: "La sicurezza costruita su solide basi.",
                     sectionText: [
                         "La sicurezza digitale richiede un approccio strutturato, capace di proteggere le informazioni e garantire la riservatezza delle comunicazioni.",
                         "TEMR sviluppa la propria proposta tecnologica nell'ambito della sicurezza informatica, con particolare attenzione alle tecnologie crittografiche."
                     ],
                     features: [
                         {
-                            title: "Cryptography",
+                            title: "Crittografia",
                             text: "Tecnologie per la protezione e la riservatezza delle informazioni."
                         },
                         {
-                            title: "Data protection",
+                            title: "Protezione dei dati",
                             text: "Soluzioni orientate alla protezione dei dati."
                         },
                         {
-                            title: "Secure communication",
+                            title: "comunicazione sicura",
                             text: "Tecnologie per comunicazioni protette."
                         }
                     ]
@@ -171,25 +171,25 @@ window.TEMR_CONTENT = {
 
                 about: {
                     eyebrow: "02 / CYBERSECURITY / ABOUT",
-                    title: "Trust through<br>technology.",
+                    title: "Affidabilità attraverso<br>la tecnologia.",
                     description: "La protezione delle informazioni parte dalla progettazione di sistemi affidabili.",
                     label: "WHO WE ARE",
-                    sectionTitle: "Engineering digital trust.",
+                    sectionTitle: "Progettando affidabilità digitale.",
                     sectionText: [
                         "La divisione Security si concentra sul mondo della sicurezza informatica e delle tecnologie per la protezione delle informazioni.",
                         "La crittografia rappresenta uno degli strumenti fondamentali per garantire riservatezza, integrità e autenticità dei dati."
                     ],
                     features: [
                         {
-                            title: "Confidentiality",
+                            title: "Confidenza",
                             text: "Protezione delle informazioni da accessi non autorizzati."
                         },
                         {
-                            title: "Integrity",
+                            title: "Integrità",
                             text: "Tutela dell'integrità delle informazioni e dei dati."
                         },
                         {
-                            title: "Innovation",
+                            title: "Innovazione",
                             text: "Attenzione alle tecnologie e agli sviluppi della sicurezza digitale."
                         }
                     ]
@@ -197,7 +197,7 @@ window.TEMR_CONTENT = {
 
                 products: {
                     eyebrow: "02 / CYBERSECURITY / SOLUTIONS",
-                    title: "Protecting<br>information.",
+                    title: "proteggiamo le<br>informazione.",
                     description: "Soluzioni moderne per proteggere dati, comunicazioni e sistemi digitali attraverso crittografia innovativa.",
                     label: "LE NOSTRE SOLUZIONI",
                     sectionTitle: "La crittografia al centro della protezione.",
